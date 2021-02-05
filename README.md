@@ -2,10 +2,10 @@
 *Exploratory data analysis on pasta moisture (food industry) for manufacturing efficiency improvement.*
 
 ## Overview
-- An overview is a brief description of the project where you highlight the process, data sourse, used tools, used statistics methods, etc.
+- An overview is a brief description of the project where you highlight the process, data sources, tools, statistics methods, etc.
 
 ## Project at a Glance
-- Brief description
+- Brief description of what you did (and results)
 - Tools
 - Dataset
 - Academic style report
