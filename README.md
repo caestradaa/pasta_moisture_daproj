@@ -9,3 +9,11 @@
 - Tools
 - Dataset
 - Academic style report
+
+1. Problem statement
+2. Data Collection
+3. Data Cleaning
+4. Exploratory Data Analysis (EDA)
+5. Feature Engineering
+6. Modeling
+7. Communication
