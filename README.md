@@ -2,10 +2,9 @@
 *Exploratory data analysis on pasta moisture (food industry) for manufacturing efficiency improvement.*
 
 ## Overview
-- Brief description of the project where you highlight the process, data sources, tools, statistics methods, etc.
-- Que se hizo y parque, conque propósito: 
-- Data Source: Spreadheet, 2 datasets, 14.141 rows.
-- Project tools: Power BI, Infostat, Excel.
+- In this research work, a deep analysis on the moisture data of pasta in a food factory was carried out, in order to answer questions and help make decisions to improve the efficiency of the pasta drying process.
+- Data obtained from an IOT data capture system on a spreadsheet during the year 2020: 2 datasets, 14.121 rows.
+- Project tools: Power BI for ETL and graphics, Infostat for stadistics and Excel.
 - Important analysis:
 - Built a formal report.
 
