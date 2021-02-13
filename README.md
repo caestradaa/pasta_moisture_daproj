@@ -9,6 +9,8 @@
 - Important analysis:
 - Built a formal report.
 
+### Code and Resourses Used
+
 ## Problem statement/hypotesis
 
 ## Data Collection
