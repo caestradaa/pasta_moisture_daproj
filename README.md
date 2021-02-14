@@ -22,7 +22,7 @@ The main database is composed by the moisture test results of the pasta from all
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Raw_data_preview.png "Raw data preview")
 
-Fecha Final: Date and Time
+<!--Fecha Final: Date and Time
 Linea: production line
 Referencia: pasta format
 Zona: drying zone where the pasta sample is taken
@@ -31,9 +31,14 @@ Duración: moisture test time duration
 Peso Muestra: sample initial weight
 Peso Final: sample final weight
 Temperatura: moisture test temperature (°C)
-Serial: tester ID serial
+Serial: tester ID serial-->
 
 ## Data Cleaning
+Ater extrating the data it needed to be cleaned so I uploaded into Power Query and made the following changes:
+- Removed "Duration" and "Temperature" columms which had the same value in all rows and were not relevant for the analysis.
+- Split "Fecha Final" into two columms: "Fecha" and "Hora".
+- Rename columm "Serial" for "Determinadora" and change long serial values for D1, D2 and D3 according to the corresponding tester.
+- Made a Date table using DAX.
 
 ## Exploratory Data Analysis (EDA)
 
