@@ -18,14 +18,20 @@ This data analytical approach was made to answer specific questions and check so
 - Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
 ## Data Collection
-The main database is composed by the moisture test results of the pasta from all production lines. The pasta moisture is measured at different stages of the drying process using moisture testers, and the obtained data is transferred via an IoT divice to a csv file on the cloud. Raw data preview:
+The main database is composed by the moisture test results of the pasta from all production lines. The pasta moisture is measured at different stages of the drying process using moisture testers, and the obtained data is transferred via an IoT divice to a csv file on the cloud. Raw data preview table:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Raw_data_preview.png "Raw data preview")
 
-| Fecha Final | Linea | Referencia | Zona | Resultado | Duración | Peso Muestra | Peso Final | Temperatura | Serial |
-| ----------- | ----- |----------- |----- |---------- |--------- |------------- |----------- |------------ |------- |
-| Date | Line | Reference | Zone | Result | Time | Sample weight | Sample final weight | Temperature | Tester id serial |
-| Paragraph | Text |
+Fecha Final: Date and Time
+Linea: production line
+Referencia: pasta format
+Zona: drying zone where the pasta sample is taken
+Resultado: moisture test result
+Duración: moisture test time duration
+Peso Muestra: sample initial weight
+Peso Final: sample final weight
+Temperatura: moisture test temperature (°C)
+Serial: tester ID serial
 
 ## Data Cleaning
 
