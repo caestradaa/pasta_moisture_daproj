@@ -4,13 +4,12 @@
 ## Overview
 - In this research work, a deep analysis on the moisture data of pasta in a food factory was carried out, in order to answer questions and help make decisions to improve the efficiency of the pasta drying process.
 - Data obtained from moisture testers through an IOT data capture system and stored on a csv file. 2 final datasets, 14.121 rows.
-- Project tools: Power BI for ETL and graphics, Infostat for statistics, Excel.
-<!--- Important insights:-->
+- Project tools: Power BI for ETL and graphics, Infostat for statistics, Excel. <!--- Important insights:-->
 - Built a formal report.
 
 <!--### Code and Resourses Used-->
 ## Problem statement and hypothesis
-The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%. Today, the general humidity indicator fails to meet that goal with 12.15%.
+The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%. <!--Today, the general humidity indicator fails to meet that goal with 12.15%.-->
 
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points in the actual drying process donde se puedan capitaliza oportunidades.
 
