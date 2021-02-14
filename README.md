@@ -20,7 +20,7 @@ This data analytical approach was made to answer specific questions and check so
 ## Data Collection
 The main database is composed by the moisture test results of the pasta from all production lines. The pasta moisture is measured at different stages of the drying process using moisture testers, and the obtained data is transferred via an IoT divice to a csv file on the cloud. Raw data preview:
 
-![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Raw_data_preview.png "Raw_data_preview")
+![alt text]( "Raw_data_preview")
 
 | Fecha Final | Linea | Referencia | Zona | Resultado | Duración | Peso Muestra | Peso Final | Temperatura | Serial |
 | ----------- | ----- |----------- |----- |---------- |--------- |------------- |----------- |------------ |------- |
