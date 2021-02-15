@@ -36,9 +36,13 @@ Serial: tester ID serial-->
 ## Data Cleaning
 Ater extrating the data it needed to be cleaned so I uploaded into Power Query and made the following changes:
 - Removed "Duration" and "Temperature" columms which had the same value in all rows and were not relevant for the analysis.
-- Split "Fecha Final" into two columms: "Fecha" and "Hora".
-- Rename columm "Serial" for "Determinadora" and change long serial values for D1, D2 and D3 according to the corresponding tester.
-- Made a Date table using DAX.
+- Eliminated duplicates, registry errors and empty rows.
+- Splited "Fecha Final" into two columms: "Fecha" and "Hora".
+- Renamed columm "Serial" for "Determinadora" and change long serial values for D1, D2 and D3 according to the corresponding tester.
+- December 2019 records were discarded to have a greater reliability of the data (during that period the IoT system was still testing).
+- Made an auxiliary Date table using DAX.
+
+<!--![alt text]( "Final dataset preview")-->
 
 ## Exploratory Data Analysis (EDA)
 
