@@ -42,8 +42,8 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 - December 2019 records were discarded to have a greater reliability of the data (during that period the IoT system was still testing).
 - Set data types and format. 
 - Made an auxiliary Date table using DAX.
-<!--![alt text]( "Data cleaning resume")-->
-<!--![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Final_dataset_preview.png "Final dataset preview")-->
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Data_cleaning_summary.png "Data cleaning resume")
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Final_dataset_preview.png "Final dataset preview")
 
 ## Exploratory Data Analysis (EDA)
 
