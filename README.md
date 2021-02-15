@@ -40,6 +40,7 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 - Splited "Fecha Final" into two columms: "Fecha" and "Hora".
 - Renamed columm "Serial" for "Determinadora" and change long serial values for D1, D2 and D3 according to the corresponding tester.
 - December 2019 records were discarded to have a greater reliability of the data (during that period the IoT system was still testing).
+- Set data types and format. 
 - Made an auxiliary Date table using DAX.
 <!--![alt text]( "Data cleaning resume")-->
 <!--![alt text]( "Final dataset preview")-->
