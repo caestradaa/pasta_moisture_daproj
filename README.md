@@ -9,7 +9,7 @@
 
 <!--### Code and Resourses Used-->
 ## Problem statement and hypothesis
-The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%. <!--Today, the general humidity indicator fails to meet that goal with 12.15%.-->
+The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%.
 
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
@@ -35,13 +35,13 @@ Serial: tester ID serial-->
 
 ## Data Cleaning
 Ater extrating the data it needed to be cleaned so I uploaded into Power Query and made the following changes:
-- Removed "Duration" and "Temperature" columms which had the same value in all rows and were not relevant for the analysis.
+- Removed "Duración" and "Temperatura" columms which had the same value in all rows and were not relevant for the analysis.
 - Eliminated duplicates, registry errors and empty rows.
 - Splited "Fecha Final" into two columms: "Fecha" and "Hora".
 - Renamed columm "Serial" for "Determinadora" and change long serial values for D1, D2 and D3 according to the corresponding tester.
 - December 2019 records were discarded to have a greater reliability of the data (during that period the IoT system was still testing).
 - Made an auxiliary Date table using DAX.
-
+<!--![alt text]( "Data cleaning resume")-->
 <!--![alt text]( "Final dataset preview")-->
 
 ## Exploratory Data Analysis (EDA)
