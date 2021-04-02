@@ -56,10 +56,13 @@ Below are a few highlights from the analysis.
 
 Looking at the measures (summary table) and  distribution (strip plot) of the pasta moisture for each production line we can easily figure out some issues: average pasta moisture, process dispersion, outliers, and general behavipur for each line.
 
-- La linea con humedad de pasta mas variable:
-- Línea con humedad de pasta menos variable
-- Linea con humedad de pasta mas baja
-- Línea con humedad de pasta mas alta
+<!--- La linea mas/menos variable:
+- Linea con humedad promedio mas alta/baja
+- Top 3 de las referencias mas altas/bajas
+- Scatterplots de los pesos de las muestas
+- Line B boxplot and hypothesis test
+- Line B Enfriador vs Corte Scatterplot
+- Line C boxplot and hypothesis test
 
 ## Featured Analysis (Specific EDA)..
 
