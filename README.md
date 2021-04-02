@@ -51,7 +51,7 @@ After ETL process The data was analyzed in a structured way to answer the questi
 
 Below are a few highlights from the analysis.
 
-
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage measures summry for each Line")
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
