@@ -54,7 +54,7 @@ Below are a few highlights from the analysis.
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Strip%20plot%20by%20Line%20(Final%20zone%20data%20distribution).PNG "Final zone moisture distribution")
 
-Looking at the measures (summary table) and  distribution (strip plot) of the moisture for each pasta production line we can easily figure out some questions.
+Looking at the measures (summary table) and  distribution (strip plot) of the pasta moisture for each production line we can easily figure out some issues: average pasta moisture, process dispersion, outliers, and general behavipur for each line.
 
 - La linea con humedad de pasta mas variable:
 - Línea con humedad de pasta menos variable
