@@ -56,13 +56,19 @@ Below are a few highlights from the analysis.
 
 Looking at the measures (summary table) and  distribution (strip plot) of the pasta moisture for each production line we can easily figure out some issues: average pasta moisture, process dispersion, outliers, and general behavipur for each line.
 
-<!--- La linea mas/menos variable:
-- Linea con humedad promedio mas alta/baja
-- Top 3 de las referencias mas altas/bajas
-- Scatterplots de los pesos de las muestas
-- Line B boxplot and hypothesis test
-- Line B Enfriador vs Corte Scatterplot
-- Line C boxplot and hypothesis test
+<!---
+- 1. Linea con humedad promedio mas alta/baja: tabla resumen de medidas de tendencia central.
+- 2. La linea mas/menos variable: juntar histogramas de cada una de las líneas.
+- 3. Top 3 de las referencias mas altas/bajas
+- 4. Scatterplots de los pesos de las muestas
+- 5. Line B boxplot and hypothesis test
+- 6. Line B Enfriador vs Corte Scatterplot
+- 7. Line C boxplot and hypothesis test
+
+
+<!---1. la Línea con mayor promedio de humedades de salida y menor variación es la Línea B (12,03%), D.E. = 0,32 y C.V. = 2,68%. La Línea A posee el menor promedio de humedades de salida (11,60%).
+
+<!---2. Atendiendo las medidas de dispersión de Línea D(SD=0,50 y CV=4,37%), y la distribución de humedades de salida en el histograma, estas encuentran dispersas sobre un rango más amplio que en cualquiera de las otras líneas. Por lo tanto es la línea con mayor variabilidad en el proceso de secado.
 
 ## Featured Analysis (Specific EDA)..
 
