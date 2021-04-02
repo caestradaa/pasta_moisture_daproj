@@ -52,6 +52,7 @@ After ETL process The data was analyzed in a structured way to answer the questi
 Below are a few highlights from the analysis.
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Strip%20plot%20by%20Line%20(Final%20zone%20data%20distribution).PNG "Final zone moisture distribution")
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
