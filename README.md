@@ -13,7 +13,7 @@ The challenge of the pasta drying process is to be able to obtain the highest po
 
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
-- Does the weight of the pasta samples have any significant impact on the results of the moisture testers?
+- Does the weight of the pasta samples have any significant impact on the results of the moisture testers?**
 - How much moisture does the pasta lose from the end of the cooling stage to the cutting stage, resting in the storage silo?
 - Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
@@ -47,6 +47,18 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Final_dataset_preview.png "Final dataset preview")
 
 ## Exploratory Data Analysis (EDA)
+After ETL process The data was analyzed in a structured way to answer the questions posed. A segmentation was carried out by Production line and by Zone, which allows to have a better idea of the pasta moisture obtained in each stage of the process, especially in the final stage because is the one that interests the most.
+
+Below are a few highlights from the analysis.
+
+
+
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+
+- La linea con humedad de pasta mas variable:
+- Línea con humedad de pasta menos variable
+- Linea con humedad de pasta mas baja
+- Línea con humedad de pasta mas alta
 
 ## Featured Analysis (Specific EDA)..
 
