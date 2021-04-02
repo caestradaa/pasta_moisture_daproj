@@ -48,7 +48,7 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 
 ## Exploratory Data Analysis (EDA)
 
-## Featured Analysis (Specific EDA)
+## Featured Analysis (Specific EDA).
 
 ## Conclusions and recomendations
 
