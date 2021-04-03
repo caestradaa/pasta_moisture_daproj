@@ -55,7 +55,7 @@ Considering the graphics above (summary measures table and strip plot) we can ea
 
 <!---2. Atendiendo las medidas de dispersión de Línea D(SD=0,50 y CV=4,37%), y la distribución de humedades de salida en el histograma, estas encuentran dispersas sobre un rango más amplio que en cualquiera de las otras líneas. Por lo tanto es la línea con mayor variabilidad en el proceso de secado.-->
 
-Top and bottom 5 References by Moiture AVG:
+###Top and bottom 5 References by Moiture AVG:
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Top_5_References.PNG "Top 5 References by Moiture AVG")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Bottom_5_References.PNG "Bottom 5 References by Moiture AVG")
 <!---3. Tablas de referencias top 5 de las mas humedas y secas:Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.-->
