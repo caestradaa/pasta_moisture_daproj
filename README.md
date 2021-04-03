@@ -72,6 +72,7 @@ Looking at the measures (summary table) and  distribution (strip plot) of the pa
 
 <!---3. Tablas de referencias top 5 de las mas humedas y secas:Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.
 
+<!---4. Scatterplots de los pesos de las muestas: Al comparar los pesos de las muestras (eje x) con los resultados de humedad (eje x) en gráfico de dispersión (scatterplot), vemos que se dibuja un patrón común en todas las líneas de producción. éste podría ser el patrón que muestra el efecto que tiene el peso de las muestras sobre la precisión en los resultados de las determinadoras de humedad Este patrón cónico indica que a medida que los pesos de las muestran aumentan, los resultados de humedad se van acercando a un valor central.
 
 
 ## Featured Analysis (Specific EDA)..
