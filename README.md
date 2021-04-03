@@ -50,6 +50,7 @@ After ETL process The data was analyzed in a structured way to answer the questi
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Stripplot_by_Line_(Final_zone_data%20distribution).PNG "Final zone moisture distribution")
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Histograms_All_Lines.PNG "Final moisture distribution by line")
 
 Considering the graphics above (summary measures table and strip plot) we can easily figure out the distribution, general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03%) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average pasta moisture (11.60%).
 
