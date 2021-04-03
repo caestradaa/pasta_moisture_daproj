@@ -59,7 +59,7 @@ Looking at the measures (summary table) and  distribution (strip plot) of the pa
 <!---
 - 1. Linea con humedad promedio mas alta/baja: tabla resumen de medidas de tendencia central.
 - 2. La linea mas/menos variable: juntar histogramas de cada una de las líneas.
-- 3. Top 3 de las referencias mas altas/bajas
+- 3. Top 3 de las referencias mas altas/bajas: Resultado de las referncias mas secas por línea.
 - 4. Scatterplots de los pesos de las muestas
 - 5. Line B boxplot and hypothesis test
 - 6. Line B Enfriador vs Corte Scatterplot
@@ -69,6 +69,10 @@ Looking at the measures (summary table) and  distribution (strip plot) of the pa
 <!---1. la Línea con mayor promedio de humedades de salida y menor variación es la Línea B (12,03%), D.E. = 0,32 y C.V. = 2,68%. La Línea A posee el menor promedio de humedades de salida (11,60%).
 
 <!---2. Atendiendo las medidas de dispersión de Línea D(SD=0,50 y CV=4,37%), y la distribución de humedades de salida en el histograma, estas encuentran dispersas sobre un rango más amplio que en cualquiera de las otras líneas. Por lo tanto es la línea con mayor variabilidad en el proceso de secado.
+
+<!---3. Tablas de referencias top 5 de las mas humedas y secas:Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.
+
+
 
 ## Featured Analysis (Specific EDA)..
 
