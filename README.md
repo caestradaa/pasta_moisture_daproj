@@ -50,10 +50,7 @@ After ETL process The data was analyzed in a structured way to answer the questi
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Stripplot_by_Line_(Final_zone_data%20distribution).PNG "Final zone moisture distribution")
-
-Looking at the measures (summary table) and  distribution (strip plot) of the pasta moisture for each production line we can easily figure out some issues: average pasta moisture, process dispersion, outliers, and general behavipur for each line.
-
-<!---1. la Línea con mayor promedio de humedades de salida y menor variación es la Línea B (12,03%), D.E. = 0,32 y C.V. = 2,68%. La Línea A posee el menor promedio de humedades de salida (11,60%).-->
+Looking at the measures (table) and  distribution (strip plot) of the pasta moisture presented above, we can easily figure out the general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03%) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average final moisture (11.60%).
 
 <!---2. Atendiendo las medidas de dispersión de Línea D(SD=0,50 y CV=4,37%), y la distribución de humedades de salida en el histograma, estas encuentran dispersas sobre un rango más amplio que en cualquiera de las otras líneas. Por lo tanto es la línea con mayor variabilidad en el proceso de secado.-->
 
