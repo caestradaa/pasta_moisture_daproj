@@ -51,7 +51,9 @@ Top and bottom 5 References by Moiture AVG:
 <!---Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.-->
 
 Sample Weight vs Moisture Results
+
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Scatterplot_SampleWeight_vs_Moisture_Line_B_and_Others.PNG)
+
 When comparing the weights of the samples (x-axis) with the moisture results (x-axis) on a scatterplot, a common pattern is drawn in all the production lines. This pattern shows the effect that the weight of the samples has on the precision of the moisture testers: as the sample weights increase, the moisture results are approaching a core value.
 
 
