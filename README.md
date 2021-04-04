@@ -44,8 +44,6 @@ After ETL process The data was analyzed in a structured way to answer the questi
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Histograms_All_Lines.PNG "Final moisture distribution by line")
 Considering the graphics above (summary measures table and histograms) we can easily figure out the distribution, general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03%) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average pasta moisture (11.60%). For Line D, standard deviation is the highest (0,50) as well as CV (4,37%). Line D moisture data is scattered over a wider range than any of the other lines, therefore, it is the line with the greatest variability in the drying process.
 
-
-3. Tablas de referencias top 5 de las mas humedas y secas
 Top and bottom 5 References by Moiture AVG:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Top_5_References.PNG "Top 5 References by Moiture AVG")
