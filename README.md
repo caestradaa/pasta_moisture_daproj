@@ -64,6 +64,7 @@ Enfriador Moisture vs Corte Moisture:
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 
 Moisture by Cut Zone boxplot:
+
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
 
 ### Line C-STR
