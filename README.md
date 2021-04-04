@@ -56,23 +56,19 @@ Sample Weight vs Moisture Results:
 
 When comparing the weights of the samples (x-axis) with the moisture results (x-axis) on a scatterplot, a common pattern is drawn in all the production lines. This pattern shows the effect that the weight of the samples has on the precision of the moisture testers: as the sample weights increase, the moisture results are approaching a core value.
 
-
-
 ## Specific Analysis
 ### Line B-BPL
-5. Line B Enfriador vs Corte Scatterplot
+Enfriador Moisture vs Corte Moisture:
+
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 
-
-
-6. Line B boxplot
+Moisture by Cut Zone boxplot:
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
 
-
-
 ### Line C-STR
-7. Line C boxplot and hypothesis test
+Moisture by DryingCell - Hypothesis test
+
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
 
 ## Conclusions and recomendations
