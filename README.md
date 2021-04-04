@@ -68,6 +68,7 @@ Top and bottom 5 References by Moiture AVG:
 ## Specific Analysis
 ### Line B-BPL 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 <!---5. Line B Enfriador vs Corte Scatterplot.-->
 
 ## Conclusions and recomendations
