@@ -45,7 +45,7 @@ After ETL process The data was analyzed in a structured way to answer the questi
 - 3. Top 3 de las referencias mas altas/bajas: Resultado de las referncias mas secas por línea.
 - 4. Scatterplots de los pesos de las muestas
 - 5. Line B Enfriador vs Corte Scatterplot
-- 6. Line B boxplot and hypothesis test
+- 6. Line B boxplot
 - 7. Line C boxplot and hypothesis test-->
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
@@ -69,7 +69,11 @@ Top and bottom 5 References by Moiture AVG:
 ### Line B-BPL 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
 <!---5. Line B Enfriador vs Corte Scatterplot.-->
+
+### Line C-STR 
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
 
 ## Conclusions and recomendations
 
