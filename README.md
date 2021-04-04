@@ -50,7 +50,7 @@ Top and bottom 5 References by Moiture AVG:
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Bottom_5_References.PNG "Bottom 5 References by Moiture AVG")
 <!---Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.-->
 
-Sample Weight vs Moisture Results
+Sample Weight vs Moisture Results:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Scatterplot_SampleWeight_vs_Moisture_Line_B_and_Others.PNG)
 
