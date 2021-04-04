@@ -40,44 +40,44 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 ## Exploratory Data Analysis (EDA)
 After ETL process The data was analyzed in a structured way to answer the questions posed. A segmentation was carried out by Production line and by Zone, which allows to have a better idea of the pasta moisture obtained in each stage of the process, especially in the final stage because is the one that interests the most. Below are a few highlights from the analysis.
 
-<!--- 1. Linea con humedad promedio mas alta/baja: tabla resumen de medidas de tendencia central.
-- 2. La linea mas/menos variable: juntar histogramas de cada una de las líneas.
-- 3. Top 3 de las referencias mas altas/bajas: Resultado de las referncias mas secas por línea.
-- 4. Scatterplots de los pesos de las muestas
-- 5. Line B Enfriador vs Corte Scatterplot
-- 6. Line B boxplot
-- 7. Line C boxplot and hypothesis test-->
-
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
-<!--![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Stripplot_by_Line_(Final_zone_data%20distribution).PNG "Final zone moisture distribution")-->
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Histograms_All_Lines.PNG "Final moisture distribution by line")
+Considering the graphics above (summary measures table and histograms) we can easily figure out the distribution, general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03%) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average pasta moisture (11.60%). For Line D, standard deviation is the highest (0,50) as well as CV (4,37%). Line D moisture data is scattered over a wider range than any of the other lines, therefore, it is the line with the greatest variability in the drying process.
 
-Considering the graphics above (summary measures table and histograms) we can easily figure out the distribution, general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03%) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average pasta moisture (11.60%).
 
-<!---2. Atendiendo las medidas de dispersión de Línea D(SD=0,50 y CV=4,37%), y la distribución de humedades de salida en el histograma, estas encuentran dispersas sobre un rango más amplio que en cualquiera de las otras líneas. Por lo tanto es la línea con mayor variabilidad en el proceso de secado.-->
-
+3. Tablas de referencias top 5 de las mas humedas y secas
 Top and bottom 5 References by Moiture AVG:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Top_5_References.PNG "Top 5 References by Moiture AVG")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Bottom_5_References.PNG "Bottom 5 References by Moiture AVG")
-<!---3. Tablas de referencias top 5 de las mas humedas y secas:Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.-->
+<!---Se decide analizar individualmente solo aquellas referencias que poseen más de 50 datos como tamaño muestral. No es apropiado realizar una comparación de las humedades entre todas las referencias, ya que los estadísticos obtenidos de muestras muy pequeñas no representan una aproximación adecuada de la realidad. Distinguidamente se nota que las de línea B y C son las mas húmedas, las de Línea A y D son las mas secas.-->
 
+
+
+4. Scatterplots de los pesos de las muestas
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Scatterplot_SampleWeight_vs_Moisture_Line_B_and_Others.PNG)
-<!---4. Scatterplots de los pesos de las muestas: Al comparar los pesos de las muestras (eje x) con los resultados de humedad (eje x) en gráfico de dispersión (scatterplot), vemos que se dibuja un patrón común en todas las líneas de producción. éste podría ser el patrón que muestra el efecto que tiene el peso de las muestras sobre la precisión en los resultados de las determinadoras de humedad Este patrón cónico indica que a medida que los pesos de las muestran aumentan, los resultados de humedad se van acercando a un valor central.-->
+<!---Al comparar los pesos de las muestras (eje x) con los resultados de humedad (eje x) en gráfico de dispersión (scatterplot), vemos que se dibuja un patrón común en todas las líneas de producción. éste podría ser el patrón que muestra el efecto que tiene el peso de las muestras sobre la precisión en los resultados de las determinadoras de humedad Este patrón cónico indica que a medida que los pesos de las muestran aumentan, los resultados de humedad se van acercando a un valor central.-->
+
+
 
 ## Specific Analysis
-### Line B-BPL 
+### Line B-BPL
+5. Line B Enfriador vs Corte Scatterplot
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
-![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
-<!---5. Line B Enfriador vs Corte Scatterplot.-->
 
-### Line C-STR 
+
+
+6. Line B boxplot
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
+
+
+
+### Line C-STR
+7. Line C boxplot and hypothesis test
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
 
 ## Conclusions and recomendations
-
-## Communication
 
 <!--- Collecting structuring, analyzing, and turning raw data into actionable business insights.
 T- he main purpose og BI is to provide actionable business insights and support data-driven decision making.-->
