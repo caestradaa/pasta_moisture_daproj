@@ -61,10 +61,12 @@ When comparing the weights of the samples (x-axis) with the moisture results (x-
 Cooler Moisture vs Stripper Moisture:
 The cooler is the last drying phase, it allows to lower the temperature of pasta and make it suitable for storage in the buffer silo.
 The stripper automatically removes the sticks and cuts the pasta to the length required for the next phase of packaging.
+
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
-![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 
 To know how much moisture does the pasta lose from the Cooler (Enfriador) to the Stripper (Corte), we study the difference between the average pasta moisture per day in these two stages. On average, pasta loses 0.41% of moisture in the time it takes to go from one stage to the other.
+
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 
 The scatterplot shows an increasing pattern in the Cuttting zone moistures as the Cooler moistures increase, however, the relationship is not very strong since the points do not have a very sharp alignment. The correlation coefficient R, takes the value of 0.67, which confirms that there is a positive moderate linear correlation. On the other hand, the coefficient of determination R2 is 0.45 and it is telling us that only 45% of the variability of the moisture in the Cutting zone is explained by the moisture of the Cooler zone. The moisture in the Cooler zone is not the only factor determining the moisture in the Cutting zone, there are other factors that affect to a great extent such as the pasta resting time in the buffer storage silo.
 
