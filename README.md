@@ -62,6 +62,8 @@ Enfriador Moisture vs Corte Moisture:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
+To know how much moisture does the pasta lose from the end of the cooling stage to the cutting stage, we study the average moisture per day of the Cooler(Enfriador) and the Cut(Corte) throughout the year. In the Cooler, the average moisture of pasta is 12.45%, and in the Cut it is 12.03%, therefore the loss of humidity that the pasta suffers between these two zones is 0.42% on average. We know that the Cooling and Cutting stages are consecutive, so obviously there is a direct dependence between their results. To better understand this relationship, we made the previous scatter plot comparing both areas. The diagram shows an increasing pattern in the Moistures of the Cut as the Moistures in the Cooler increase, however, the association is not very strong since the points do not have a very sharp alignment. Applying a linear regression model, R takes the value of 0.67, which confirms that there is a positive linear correlation, but of a moderate nature. On the other hand, the coefficient of determination R2 is 0.45 and it is telling us that only 45% of the variability of the humidity in the Cut is explained by the results of the humidity of the Cooler. Thus checking that the result of humidity in the Cooler is not the only determining factor in the result of humidity in the Cut. There are other factors that affect to a great extent, such as the rest time in the storage silo.
+
 
 Moisture by Cut Zone boxplot:
 
