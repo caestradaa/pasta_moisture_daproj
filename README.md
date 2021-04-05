@@ -14,8 +14,8 @@ The challenge of the pasta drying process is to be able to obtain the highest po
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
 - Does the weight of the pasta samples have any significant impact on the results of the moisture testers?**
-- How much moisture does the pasta lose from the end of the cooling phase to the cutting phase?
-- Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
+- For Line B: How much moisture does the pasta lose from the end of the cooling phase to the cutting phase?
+- For Line C: Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
 ## Data Collection
 The main database is composed by the moisture test results of the pasta from all production lines. The pasta moisture is measured at different stages of the drying process using moisture testers, and the obtained data is transferred via an IoT divice to a csv file on the cloud. Raw data preview table:
@@ -42,7 +42,7 @@ After ETL process The data was analyzed in a structured way to answer the questi
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Histograms_All_Lines.PNG "Final moisture distribution by line")
-Considering the graphics above (summary measures table and histograms) we can easily figure out the distribution, general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03%) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average pasta moisture (11.60%). For Line D, standard deviation is the highest (0,50) as well as CV (4,37%). Line D moisture data is scattered over a wider range than any of the other lines, therefore, it is the line with the greatest variability in the drying process.
+Considering the graphics above (summary measures table and histograms) we can easily figure out the distribution, general behaviour and the process dispersion for each line. Line B has the highest pasta moisture average (12.03) and the least variation in moisture (S.D. = 0.32, C.V. = 2.68%). Line A has the lowest average pasta moisture (11.60%). For Line D, standard deviation is the highest (0,50) as well as CV (4,37%). Line D moisture data is scattered over a wider range than any of the other lines, therefore, it is the line with the greatest variability in the drying process.
 
 Top and bottom 5 References by Moiture AVG:
 
@@ -60,7 +60,7 @@ When comparing the weights of the samples (x-axis) with the moisture results (x-
 ### Line B-BPL (long-cut pasta line)
 Cooler Moisture vs Stripper Moisture:
 The cooler (Enfriador) is the last drying phase, it allows to lower the temperature of pasta and make it suitable for storage in the buffer silo.
-The stripper (Corte) automatically removes the sticks and cuts the pasta to the length required for the next phase of packaging. To know how much moisture does the pasta lose from the Cooler to the Stripper, we study the difference between the average pasta moisture per day in these two stages. On average, pasta loses 0.41% of moisture in the time it takes to go from one stage to the other.
+The stripper (Corte) automatically removes the sticks and cuts the pasta to the length required for the next phase of packaging. To know how much moisture does the pasta lose from the Cooler to the Stripper, we study the difference between the average pasta moisture per day in these two stages. On average, pasta loses 0.41 points of moisture in the time it takes to go from one stage to the other.
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
@@ -70,7 +70,10 @@ The scatterplot shows an increasing pattern in the Stripper moistures as the Coo
 <!--Moisture by Cut Zone boxplot: ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)-->
 
 ### Line C-STR (Special pasta line)
-Moisture by DryingCell - Hypothesis test
+Moisture by DryingCell - Hypothesis test:
+An analysis on the drying cells of Line C was carried out to know if they dry pasta in a uniform way, studying the distribution of the moisture results in each cell (boxplot). First, we note that the average moisture of all cells is considerably far from the target range (12.30 - 12.50). Second, there is a clear difference in the dispersion of the moisture of each cell. To find out if this difference is significant enough to make modifications to the recipes in a differentiated way, we proceed with a hypothesis test comparing two groups of cells with similar distributions. After defining the null and alternative hypothesis, we choose a significance level (α) of 1%.
+
+As a result, we have p < α and therefore Ho is rejected. There is a at least 99.99% confidence that the average moisture of Group 1 (Cells 1, 3 and 6) are significantly different from the average moisture of Group 2 (Cells 2,4 and 5 ). Therefore, the modification in the recipes must be carried out in a differentiated way, taking into account the two established groups.
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
 
