@@ -70,8 +70,7 @@ The scatterplot shows an increasing pattern in the Stripper moistures as the Coo
 <!--Moisture by Cut Zone boxplot: ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)-->
 
 ### Line C-STR (Special pasta line)
-Moisture by DryingCell - Hypothesis test:
-An analysis on the drying cells of Line C was carried out to know if they dry pasta in a uniform way, studying the distribution of the moisture results in each cell (boxplot). First, we note that the average moisture of all cells is considerably far from the target range (12.30 - 12.50). Second, there is a clear difference in the dispersion of the moisture of each cell. To find out if this difference is significant enough to make modifications to the recipes in a differentiated way, we proceed with a hypothesis test comparing two groups of cells with similar distributions. After defining the null and alternative hypothesis, we choose a significance level (α) of 1%.
+Moisture by Drying Cell - Hypothesis test: An analysis on the drying cells of Line C was carried out to know if they dry pasta in a uniform way, studying the distribution of the moisture results in each cell (boxplot).  As we see, there is a clear difference in the dispersion of the moisture of each cell. To find out if this difference is significant enough to make modifications to the recipes in a differentiated way, I proceed with a hypothesis test comparing two groups of cells with similar distributions. After defining the null and alternative hypothesis, we choose a significance level (α) of 1%.
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
 
