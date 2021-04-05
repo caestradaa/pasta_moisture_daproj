@@ -14,7 +14,7 @@ The challenge of the pasta drying process is to be able to obtain the highest po
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
 - Does the weight of the pasta samples have any significant impact on the results of the moisture testers?**
-- How much moisture does the pasta lose from the end of the cooling phase to the stripper (cutting stage)?
+- How much moisture does the pasta lose from the end of the cooling phase to the cutting phase?
 - Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
 ## Data Collection
@@ -67,10 +67,7 @@ The stripper (Corte) automatically removes the sticks and cuts the pasta to the 
 
 The scatterplot shows an increasing pattern in the Stripper moistures as the Cooler moistures increase, however, the relationship is not very strong since the points do not have a very sharp alignment. The correlation coefficient R, takes the value of 0.67, which confirms that there is a positive moderate linear correlation. On the other hand, the coefficient of determination R^2 is 0.45 and it tells us that only 45% of the variability of the moisture in the Stripper is explained by the moisture of the Cooler. The final moisture in the Cooler is not the only factor determining the moisture in the Stripper, there are other factors that affect to a great extent such as the pasta variable resting time in the buffer storage silo.
 
-
-Moisture by Cut Zone boxplot:
-
-![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
+<!--Moisture by Cut Zone boxplot: ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)-->
 
 ### Line C-STR (Special pasta line)
 Moisture by DryingCell - Hypothesis test
