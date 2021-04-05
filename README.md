@@ -1,5 +1,5 @@
 # Project: Pasta Moisture Data Analysis
-*Exploratory data analysis on pasta moisture (food industry) for manufacturing efficiency improvement.*
+*Exploratory data analysis on pasta moisture (food production industry) for manufacturing efficiency improvement.*
 
 ## Overview
 - In this research work, a deep analysis on the moisture data of pasta in a food factory was carried out, in order to answer questions and help make decisions to improve the efficiency of the pasta drying process.
@@ -14,7 +14,7 @@ The challenge of the pasta drying process is to be able to obtain the highest po
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
 - Does the weight of the pasta samples have any significant impact on the results of the moisture testers?**
-- How much moisture does the pasta lose from the end of the cooling stage to the cutting stage, resting in the storage silo?
+- How much moisture does the pasta lose from the end of the cooling phase to the stripper (cutting stage)?
 - Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
 ## Data Collection
@@ -38,7 +38,7 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Final_dataset_preview.png "Final dataset preview")
 
 ## Exploratory Data Analysis (EDA)
-After ETL process The data was analyzed in a structured way to answer the questions posed. A segmentation was carried out by Production line and by Zone, which allows to have a better idea of the pasta moisture obtained in each stage of the process, especially in the final stage because is the one that interests the most. Below are a few highlights from the analysis.
+After ETL process The data was analyzed in a structured way to answer the questions posed. A segmentation was carried out by Production line and by Zone, which allows to have a better idea of the pasta moisture obtained in each phase of the process, especially in the final phase because is the one that interests the most. Below are a few highlights from the analysis.
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Measures%20summary.PNG "Final stage zone measures summry for each Line")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Histograms_All_Lines.PNG "Final moisture distribution by line")
@@ -57,22 +57,23 @@ Sample Weight vs Moisture Results:
 When comparing the weights of the samples (x-axis) with the moisture results (x-axis) on a scatterplot, a common pattern is drawn in all the production lines. This pattern shows the effect that the weight of the samples has on the precision of the moisture testers: as the sample weights increase, the moisture results are approaching a core value.
 
 ## Specific Analysis
-### Line B-BPL
-Enfriador Moisture vs Corte Moisture:
-
+### Line B-BPL (long-cut pasta line)
+Cooler Moisture vs Stripper Moisture:
+The cooler is the last drying phase, it allows to lower the temperature of pasta and make it suitable for storage in the buffer silo.
+The stripper automatically removes the sticks and cuts the pasta to the length required for the next phase of packaging.
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Enfriador_vs_Corte_Moisture_Scatter_chart.PNG)
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Average_Difference_Enfriador_vs_Corte_(LineB).PNG)
 
-To know how much moisture does the pasta lose from the cooling stage to the cutting stage, we study the difference between the average pasta moisture per day in the Cooler(Enfriador) and also in the Cutting zone(Corte). On average the loss of moisture between these two stages is 0.41%.
+To know how much moisture does the pasta lose from the Cooler (Enfriador) to the Stripper (Corte), we study the difference between the average pasta moisture per day in these two stages. On average, pasta loses 0.41% of moisture in the time it takes to go from one stage to the other.
 
-The scatterplot shows an increasing pattern in the Cuttting zone moistures as the Cooler moistures increase, however, the relationship is not very strong since the points do not have a very sharp alignment. The correlation coefficient R, takes the value of 0.67, which confirms that there is a positive moderate linear correlation. On the other hand, the coefficient of determination R2 is 0.45 and it is telling us that only 45% of the variability of the moisture in the Cutting zone is explained by the moisture of the Cooler zone. It takes us to the conclusion that the moisture in the Cooler is not the only factor determining the moisture in the Cutting zone, there are other factors that affect to a great extent such as the pasta resting time in the Cutting zone.
+The scatterplot shows an increasing pattern in the Cuttting zone moistures as the Cooler moistures increase, however, the relationship is not very strong since the points do not have a very sharp alignment. The correlation coefficient R, takes the value of 0.67, which confirms that there is a positive moderate linear correlation. On the other hand, the coefficient of determination R2 is 0.45 and it is telling us that only 45% of the variability of the moisture in the Cutting zone is explained by the moisture of the Cooler zone. The moisture in the Cooler zone is not the only factor determining the moisture in the Cutting zone, there are other factors that affect to a great extent such as the pasta resting time in the buffer storage silo.
 
 
 Moisture by Cut Zone boxplot:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)
 
-### Line C-STR
+### Line C-STR (Special pasta line)
 Moisture by DryingCell - Hypothesis test
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
