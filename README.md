@@ -73,9 +73,9 @@ The scatterplot shows an increasing pattern in the Stripper moistures as the Coo
 Moisture by DryingCell - Hypothesis test:
 An analysis on the drying cells of Line C was carried out to know if they dry pasta in a uniform way, studying the distribution of the moisture results in each cell (boxplot). First, we note that the average moisture of all cells is considerably far from the target range (12.30 - 12.50). Second, there is a clear difference in the dispersion of the moisture of each cell. To find out if this difference is significant enough to make modifications to the recipes in a differentiated way, we proceed with a hypothesis test comparing two groups of cells with similar distributions. After defining the null and alternative hypothesis, we choose a significance level (α) of 1%.
 
-As a result, we have p < α and therefore Ho is rejected. There is a at least 99.99% confidence that the average moisture of Group 1 (Cells 1, 3 and 6) are significantly different from the average moisture of Group 2 (Cells 2,4 and 5 ). Therefore, the modification in the recipes must be carried out in a differentiated way, taking into account the two established groups.
-
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
+
+As a result, we have p < α and therefore Ho is rejected. There is a at least 99.99% confidence that the average moisture of Group 1 (Cells 1, 3 and 6) are significantly different from the average moisture of Group 2 (Cells 2,4 and 5 ). Therefore, the modification in the recipes must be carried out in a differentiated way, taking into account the two established groups.
 
 ## Dashboard preview
 ## Conclusions and recomendations
