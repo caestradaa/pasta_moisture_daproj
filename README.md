@@ -76,8 +76,7 @@ Moisture by Drying Cell - Hypothesis test: An analysis on the drying cells of Li
 
 As a result, we have p < α and therefore Ho is rejected. There is a at least 99.99% of confidence that the average moisture of Group 1 (Cells 1, 3 and 6) are significantly different from the average moisture of Group 2 (Cells 2,4 and 5 ). Therefore, the modification in the recipes must be carried out in a differentiated way, taking into account the two established groups.
 
-## Dashboard preview
-## Conclusions and recomendations
-
-<!--- Collecting structuring, analyzing, and turning raw data into actionable business insights.
-T- he main purpose og BI is to provide actionable business insights and support data-driven decision making.-->
+## Power BI Report preview
+![alt text]()
+![alt text]()
+<!---## Conclusions and recomendations-->
