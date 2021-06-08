@@ -57,7 +57,7 @@ Sample Weight vs Moisture Results:
 When comparing the weights of the samples (x-axis) with the moisture results (x-axis) on a scatterplot, a common pattern is drawn in all the production lines. This pattern shows the effect that the weight of the samples has on the precision of the moisture testers: as the sample weights increase, the moisture results are approaching a core value.
 
 ## Specific Analysis
-### Line B-BPL (long-cut pasta line)
+### Line B (long-cut pasta line)
 Cooler Moisture vs Stripper Moisture:
 The cooler (Enfriador) is the last drying phase, it allows to lower the temperature of pasta and make it suitable for storage in the buffer silo.
 The stripper (Corte) automatically removes the sticks and cuts the pasta to the length required for the next phase of packaging. To know how much moisture does the pasta lose from the Cooler to the Stripper, we study the difference between the average pasta moisture per day in these two stages. On average, pasta loses 0.41 points of moisture in the time it takes to go from one stage to the other.
