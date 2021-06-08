@@ -13,7 +13,7 @@ The challenge of the pasta drying process is to be able to obtain the highest po
 
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
-- Does the weight of the pasta samples have any significant impact on the results of the moisture testers?**
+- Does the weight of the pasta samples have any significant impact on the results of the moisture testers?
 - For Line B: How much moisture does the pasta lose from the end of the cooling phase to the cutting phase?
 - For Line C: Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
