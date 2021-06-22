@@ -79,4 +79,5 @@ As a result, we have p < α and therefore Ho is rejected. There is a at least 99
 ## Power BI Report preview
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Report_preview_Overview_page.PNG "Report preview - Overview page")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Report_preview_LineB_page.PNG "Report preview- Line B page")
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Power%20BI%20Report/Dashboard%2C%201.%20General.jpg)
 <!---## Conclusions and recomendations-->
