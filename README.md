@@ -11,7 +11,7 @@
 ## Problem statement and hypothesis
 The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%.
 
-This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most importants are:
+This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most important questions are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
 - Does the weight of the pasta samples have any significant impact on the results of the moisture testers?
 - For Line B: How much moisture does the pasta lose from the end of the cooling phase to the cutting phase?
