@@ -67,7 +67,7 @@ When comparing the weights of the samples (x-axis) with the moisture results (x-
 
 
 
-## Specific Analysis
+## Explanatory Analysis
 ### Line B (long-cut pasta line)
 Cooler Moisture vs Stripper Moisture:
 The cooler (Enfriador) is the last drying phase, it allows to lower the temperature of pasta and make it suitable for storage in the buffer silo.
@@ -80,7 +80,7 @@ The scatterplot shows an increasing pattern in the Stripper moistures as the Coo
 
 <!--Moisture by Cut Zone boxplot: ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_%25Moisture_by_Cut_Zone_LineB.PNG)-->
 
-### Line C-STR (Special pasta line)
+### Line C (Special pasta line)
 Moisture by Drying Cell - Hypothesis test: An analysis on the drying cells of Line C was carried out to know if they dry pasta in a uniform way. As we see in the boxplot, there is a clear difference in the dispersion of the moisture of each cell. To find out if this difference is significant enough to make modifications to the recipes in a differentiated way, I proceed with a hypothesis test comparing two groups of cells, each one including cells with similar distribution. After defining the null and alternative hypothesis, we choose a significance level (α) of 1%.
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
