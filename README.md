@@ -5,9 +5,9 @@
 
 ## Overview
 - In this research work, a deep analysis on the moisture data of pasta in a food factory was carried out, in order to answer questions and help make decisions to improve the efficiency of the pasta drying process.
-- Data obtained from moisture testers through an IOT data capture system and stored on a csv file. 1 final dataset with 14.121 rows.
-- Project tools: Power BI for ETL and visualizations, Infostat for statistics, Excel.
-- An insightful **[Power BI report][PBIreport]** was built and recommendations made it possible to improve the efficiency of the pasta drying process by 12% in Line C.
+- Data obtained from moisture testers through an IOT data capture system and stored on a csv file. 1 final dataset with **14.121 rows**.
+- Project tools: **Power BI** for ETL and visualizations, **Infostat** for statistics, **Excel**.
+- An insightful **[Power BI report][PBIreport]** was built and recommendations made it possible to improve the efficiency of the pasta drying process by **12%** in Line C.
 
 
 
@@ -32,7 +32,7 @@ The main database is composed by the moisture test results of the pasta from all
 
 
 ## Data Cleaning
-Ater extrating the data it needed to be cleaned so I uploaded into Power Query and made the following changes:
+Ater extrating the data it needed to be cleaned so I uploaded into **Power Query** and made the following changes:
 - Removed "Duración" and "Temperatura" columms which had the same value in all rows and were not relevant for the analysis.
 - Eliminated duplicates, registry errors and empty rows.
 - Splited "Fecha Final" into two columms: "Fecha" and "Hora".
