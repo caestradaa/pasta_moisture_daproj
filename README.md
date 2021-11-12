@@ -1,15 +1,18 @@
 # Project: Pasta Moisture Data Analysis
 *Exploratory data analysis on pasta moisture (food production industry) for manufacturing efficiency improvement.*
 
+
+
 ## Overview
 - In this research work, a deep analysis on the moisture data of pasta in a food factory was carried out, in order to answer questions and help make decisions to improve the efficiency of the pasta drying process.
 - Data obtained from moisture testers through an IOT data capture system and stored on a csv file. 1 final dataset with 14.121 rows.
-- Project tools: Power BI for ETL and graphics, Infostat for statistics, Excel. <!--- Important insights:-->
-- The efficiency of the pasta drying process was improved by 12% in Line C (specialities). A Power BI report was built.
+- Project tools: Power BI for ETL and visualizations, Infostat for statistics, Excel.
+- An insightful Power BI report was built and recommendations made it possible to improve the efficiency of the pasta drying process by 12% in Line C.
 
-<!--### Code and Resourses Used-->
+
+
 ## Problem statement and hypothesis
-The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%.
+The challenge of the pasta drying process is to be able to obtain the highest possible moisture results in the finished product without entailing a risk of non-conforming product by exceeding the maximum legal level of 13.00%. <!--The objective of the production team, and the business in general, is to reach the range of 12.30% - 12.50%.-->
 
 This data analytical approach was made to answer specific questions and check some hypotheses about the actual pasta drying process, and help detect pain-points where opportunities can be capitalized. Some of the most important questions are:
 - Which production line/pasta format has the most variant moisture results? Which pasta format tends to be dryer?
@@ -17,12 +20,16 @@ This data analytical approach was made to answer specific questions and check so
 - For Line B: How much moisture does the pasta lose from the end of the cooling phase to the cutting phase?
 - For Line C: Will it be necessary to modify the drying recipes individually for each drying cell instead of having a single modified recipe for all?
 
+
+
 ## Data Collection
 The main database is composed by the moisture test results of the pasta from all production lines. The pasta moisture is measured at different stages of the drying process using moisture testers, and the obtained data is transferred via an IoT divice to a csv file on the cloud. Raw data preview table:
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Raw_data_preview.png "Raw data preview")
 
 <!--Fecha Final: Date and Time, Linea: production line, Referencia: pasta format, Zona: drying zone where the pasta sample is taken, Resultado: moisture test result, Duración: moisture test time duration, Peso Muestra: sample initial weight, Peso Final: sample final weight, Temperatura: moisture test temperature (°C), Serial: tester ID serial-->
+
+
 
 ## Data Cleaning
 Ater extrating the data it needed to be cleaned so I uploaded into Power Query and made the following changes:
@@ -36,6 +43,8 @@ Ater extrating the data it needed to be cleaned so I uploaded into Power Query a
 
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Data_cleaning_summary.png "Data cleaning summary")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Final_dataset_preview.png "Final dataset preview")
+
+
 
 ## Exploratory Data Analysis (EDA)
 After ETL process The data was analyzed in a structured way to answer the questions posed. A segmentation was carried out by Production line and by Zone, which allows to have a better idea of the pasta moisture obtained in each phase of the process, especially in the final phase because is the one that interests the most. Below are a few highlights from the analysis.
@@ -56,6 +65,8 @@ Sample Weight vs Moisture Results:
 
 When comparing the weights of the samples (x-axis) with the moisture results (x-axis) on a scatterplot, a common pattern is drawn in all the production lines. This pattern shows the effect that the weight of the samples has on the precision of the moisture testers: as the sample weights increase, the moisture results are approaching a core value.
 
+
+
 ## Specific Analysis
 ### Line B (long-cut pasta line)
 Cooler Moisture vs Stripper Moisture:
@@ -75,6 +86,8 @@ Moisture by Drying Cell - Hypothesis test: An analysis on the drying cells of Li
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Boxplot_Moisture_by_DryingCell_LineC_and_Hypothesis_Test.PNG)
 
 As a result, we have p < α and therefore Ho is rejected. There is a at least 99.99% of confidence that the average moisture of Group 1 (Cells 1, 3 and 6) are significantly different from the average moisture of Group 2 (Cells 2,4 and 5). Therefore, the modification in the recipes must be carried out in a differentiated way, taking into account the two established groups.
+
+
 
 ## Power BI Report preview
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Power%20BI%20Report/Dashboard%2C%201.%20General.jpg "Report preview - Overview page")
