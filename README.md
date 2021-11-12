@@ -41,7 +41,7 @@ Ater extrating the data it needed to be cleaned so I uploaded into **Power Query
 - Set data types and format. 
 - Made an auxiliary Date table using DAX.
 
-![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Data_cleaning_summary.png "Data cleaning summary")
+![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Data_cleaning_summary.png "Data cleaning summary")  
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Images/Final_dataset_preview.png "Final dataset preview")
 
 
