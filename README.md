@@ -1,5 +1,5 @@
 # Project: Pasta Moisture Data Analysis
-*Exploratory data analysis on pasta moisture in thefood production industry for manufacturing efficiency improvement.*
+*Exploratory data analysis on pasta moisture in the food production industry for manufacturing efficiency improvement.*
 
 
 
