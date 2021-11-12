@@ -7,7 +7,7 @@
 - In this research work, a deep analysis on the moisture data of pasta in a food factory was carried out, in order to answer questions and help make decisions to improve the efficiency of the pasta drying process.
 - Data obtained from moisture testers through an IOT data capture system and stored on a csv file. 1 final dataset with 14.121 rows.
 - Project tools: Power BI for ETL and visualizations, Infostat for statistics, Excel.
-- An insightful [Power BI report](https://github.com/caestradaa/pasta_moisture_daproj/tree/main/Power%20BI%20Report) was built and recommendations made it possible to improve the efficiency of the pasta drying process by 12% in Line C.
+- An insightful **[Power BI report][PBIreport]** was built and recommendations made it possible to improve the efficiency of the pasta drying process by 12% in Line C.
 
 
 
@@ -93,9 +93,7 @@ As a result, we have p < α and therefore Ho is rejected. There is a at least 99
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Power%20BI%20Report/Dashboard%2C%201.%20General.jpg "Report preview - Overview page")
 ![alt text](https://github.com/caestradaa/pasta_moisture_daproj/blob/main/Power%20BI%20Report/Dashboard%2C%203.%20Cooler%20vs%20Stripper.jpg "Report preview- Line B page")
 
+[PBIreport]:https://github.com/caestradaa/pasta_moisture_daproj/tree/main/Power%20BI%20Report
 
-<!---## Conclusions and recomendations
 
-[Power BI report](https://github.com/caestradaa/pasta_moisture_daproj/tree/main/Power%20BI%20Report)
-
--->
+<!---## Conclusions and recomendations-->
